@@ -17,6 +17,13 @@ cats_processed <- readRDS("cats_processed.Rds")
 childcare_processed <- readRDS("childcare_processed.Rds")
 
 
+# description of data, including data dictionaries
+
+# cheese data: https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-06-04
+# cats data: https://github.com/rfordatascience/tidytuesday/tree/main/data/2023/2023-01-31
+# childcare data: https://github.com/rfordatascience/tidytuesday/tree/main/data/2023/2023-05-09
+
+
 
 # outline
 
