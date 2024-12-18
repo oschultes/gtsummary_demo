@@ -263,7 +263,7 @@ cheese_processed |>
 
 # first, we'll look at how year predicts weekly childcare costs for infants by county
 
-tbl_regression(model = glm(mc_infant ~ study_year, 
+tbl_regression(x = glm(mc_infant ~ study_year, 
                            data = childcare_processed, 
                            family = gaussian),             # assuming a normal distribution is the default
                pvalue_fun = ~style_sigfig(., digits = 3),
